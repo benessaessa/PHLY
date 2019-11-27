@@ -1,0 +1,470 @@
+body{
+  font-family: 'Montserrat-bold', sans-serif;
+}
+.textPage,.textPage2,.textPage3{
+    color: #A0A4B4;
+    font-family: Montserrat;
+}
+.newText{
+  color: #ac851b ;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Montserrat;
+  letter-spacing: 10px;
+}
+/* .navbar .nav-item .nav-link{
+    text-transform: uppercase;
+} */
+
+.join{
+    background-image: linear-gradient(to bottom, #db4091 -16%, #97499c);
+    border-radius: 5px;
+    margin-right: 4rem;
+}
+.join:hover{
+  opacity: 0.9;
+}
+.leftNav {
+  margin-right: 4rem;
+}
+
+.navbar-brand{
+  margin-left: 4rem;
+}
+
+.nav-item{
+    padding: 1rem 1.5rem;
+}
+
+.nav-item .nav-link{
+    font-weight: bolder;
+    font-size: 0.9rem;
+    color: #575f7b  !important;
+}
+
+.join .nav-link{
+  padding: 3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white !important;
+}
+
+.content{
+    top: 2rem;
+    padding-top: 3rem;
+    /* position: absolute; */
+}
+
+.content h1 b{
+    color: #9e268e;
+}
+
+.content h1{
+    color: #1d274b;
+    font-family: Montserrat;
+    line-height: normal;
+    font-weight: bolder;
+    letter-spacing: normal;
+    font-size: 50px;
+}
+
+.imgMap{
+  margin-top: 3rem;
+}
+
+.content h2{
+    color: #424B69;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content h6{
+    color: #a0a4b7;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.video {
+    position: relative;
+}
+
+.video>button {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+.contactUs {
+    width: 100%;
+    height: 85vh;
+    background: url(../images/poster.png) top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  
+  .contactUs:before {
+    content: "";
+    background: linear-gradient(189deg, #50062c 10%, #3f0e42 190%);
+    position: absolute;
+    opacity: 75%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .contactUs .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: -2rem;
+    padding: 1rem;
+    left: 6rem;
+    right: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+.contactUs h1 {
+  font-family: Montserrat;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.contactUs h6 {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(172, 162, 162);
+}
+
+.contactUs h5{
+  font-size: 24px !important;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(172, 162, 162);
+}
+  
+.contactUs h2 {
+    color: #eee;
+    text-transform: uppercase;
+}
+  
+.hero-container h2 span{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(218, 214, 214);
+}
+.hero-container h2 a{
+  color: #eee;
+}
+/* ===================================== Details ===================================== */
+.txtDetails{
+  padding:1rem 10rem;
+  color: #1d274b;
+  font-family: Montserrat;
+  font-weight: 750;
+  font-size: 2.1rem;
+  text-align: center;
+}
+.txtDetails2{
+  padding:1rem 8rem;
+  color: #1d274b;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.features{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.txtConnect{
+  color: #1d274b;
+  font-weight: 700;
+  font-family: Montserrat;
+  font-size: 42px;
+  /* letter-spacing: .1rem; */
+}
+
+.connect{
+  padding-bottom: 0rem;
+  padding-top: 4rem;
+}
+
+.pConnect{
+  opacity: 1;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.media{
+  padding-left: 1rem;
+}
+
+.media .media-body p:hover{
+  color: black !important;
+}
+
+.imgPlay:hover{
+  opacity: 0.8;
+}
+
+.media:hover,.visteLink{
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border-radius: 4px;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.imgBuild{
+  transform: scale(0.95,1);
+}
+
+.imgEdit{
+  position: absolute;
+  bottom: 0rem;
+  left: 0px;
+}
+.imgEdit2{
+  bottom: 0rem;
+  left: -2rem;
+  transform: rotate(5deg);
+  top: 10rem;
+  z-index: -1;
+  position: absolute;
+}
+.imgEdit3{
+  z-index: -1;
+  top: 8rem;
+  bottom: 0rem;
+  right: 0rem;
+  position: absolute;
+}
+
+.rightSection{
+  padding-bottom: 5rem;
+}
+.rightSection a:hover{
+  text-decoration: none;
+}
+.section2{
+  padding-top: 8rem;
+}
+
+.joins{
+  padding-top: 4rem;
+}
+.btnJoin{
+  background-image: linear-gradient(to bottom, #db4091 -16%, #97499c);
+  font-size: 23px;
+  padding: 1rem 4rem;
+  font-weight: 600;
+}
+
+.subFeature h6{
+  padding: 0.4rem 1.5rem;
+}
+
+.subFeature .text1{
+  font-size: 1.1rem;
+  color: #1d274b;
+  font-weight: 600;
+}
+.subFeature .text2{
+  color: gray;
+  font-size: 1rem;
+}
+
+.subFeature p a{
+  color: #540cfa;
+}
+.btnSign{
+  background-image: linear-gradient(to bottom, #db4091 -16%, #97499c);
+  padding: 1rem 2rem;
+}
+.newsletter input::placeholder {
+  color: gray;
+  font:italic;
+  font-size: 1.1rem;
+  letter-spacing: .1rem;
+}
+.links a:hover{
+  text-decoration: none;
+}
+.newsletter button {
+  border-radius: 0;
+}
+.newsletter input,.newsletter .btn {
+  height: 5rem;
+  font-size: 20px;
+  border:2px solid linear-gradient(to bottom, #db4091 -16%, #97499c);
+}
+.newsletter .form-control{
+  width: 30%;
+}
+.newsletter {
+  padding: 1rem 17rem;
+}
+.footer .nav-item .nav-link img:hover{
+  color: #1d274b !important;
+}
+.footer p{
+  font-size: 12px;
+  color: rgb(194, 188, 188);
+}
+@media screen and (max-width:800px){
+  .navbar-brand img{
+      width: 70px;
+      height: 70px;
+  }
+  .textPage img,.content img{
+    transform: scale(0.65,0.65);
+  }
+  .textPage{
+    padding-left: 4rem;
+    font-family: Montserrat;
+  }
+  .content{
+      margin-top: 1rem;
+      padding: 1rem;
+  }
+  .navbar-brand{
+    margin-left: 1rem;
+  }
+  .leftNav {
+    margin-right: 1rem;
+  }
+  .imgBuild{
+    transform: scale(0.5,0.5);
+  }
+  .imgEdit2{
+    bottom: 0rem;
+    transform: scale(0.5,0.5);
+    left: 0rem;
+    top: 3rem;
+    z-index: -1;
+    position: absolute;
+  }
+  .imgEdit3{
+    z-index: -1;
+    transform: scale(0.5,0.5);
+    top: 1rem;
+    bottom: 0rem;
+    right: -4rem;
+    position: absolute;
+  }
+  .rightSection{
+    padding: 6rem 0.5rem 1rem 0.5rem;
+  }
+  .section2{
+    padding-top: 1rem;
+  }
+  .join{
+    margin-right: 1rem;
+  }
+  .btnJoin{
+    padding: 1rem;
+  }
+  .joins{
+    padding-top: 1rem;
+  }
+  .contactUs .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .newsletter {
+    padding: 1rem;
+  }
+  .join .nav-link{
+    padding:0rem 1rem;
+    font-size: 14px !important;
+    color: white !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactUs h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .contactUs h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .txtDetails{
+    padding:1rem 0rem !important;
+    font-size: 1.2rem !important;
+  }
+  .txtDetails2{
+    padding:1rem 0rem !important;
+    font-size: 1.4rem !important;
+  }
+  .imgBuild{
+    transform: scale(0.8,.8);
+  }
+
+.imgEdit{
+  /* left: -3rem !important; */
+    top: 0rem !important; 
+    transform: scale(0.4,0.4);
+    left: -2rem !important;
+  }
+.txtConnect{
+  font-size: 1.8rem !important;
+  }
+}
+
+
+@media screen and (max-width:750px){
+  .video>button {
+      position: absolute;
+      top: 20%;
+      left: 30%;
+  }
+  .connect{
+    padding-top: 0rem !important;
+    padding-bottom: 1rem;
+  }
+  .video .imgPlay{
+    transform: scale(0.6,0.6);
+  }
+  .video .imagePoster{
+    height: 300px;
+  }
+  .imgMap{
+    margin-top: 0rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contactUs {
+    background-attachment: fixed;
+  }
+}
