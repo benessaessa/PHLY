@@ -385,8 +385,12 @@ body{
   .join{
     margin-right: 1rem;
   }
+  .nav-item{
+    padding: 1rem 1rem;
+  }
   .btnJoin{
     padding: 1rem;
+    font-size: 16px;
   }
   .joins{
     padding-top: 1rem;
@@ -403,11 +407,14 @@ body{
     flex-direction: column;
     text-align: center;
   }
+  .contactUs{
+    height: 120vh;
+  }
   .newsletter {
     padding: 1rem;
   }
   .join .nav-link{
-    padding:0rem 1rem;
+    padding:0rem 0.2rem;
     font-size: 14px !important;
     color: white !important;
   }
@@ -419,8 +426,11 @@ body{
     line-height: 24px;
     margin-bottom: 30px;
   }
+  .newText{
+    font-size: 16px;
+  }
   .contactUs h1 {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 36px;
   }
   .txtDetails{
@@ -437,12 +447,12 @@ body{
 
 .imgEdit{
   /* left: -3rem !important; */
-    top: 0rem !important; 
+    top: -2rem !important; 
     transform: scale(0.4,0.4);
     left: -2rem !important;
   }
 .txtConnect{
-  font-size: 1.8rem !important;
+  font-size: 1.5rem !important;
   }
 }
 
