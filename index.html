@@ -17,7 +17,7 @@
     <ul class="list-unstyled list-inline pt-5">
         <li class="list-inline-item"><a class="navbar-brand" href="#"><img src="images/group@2x.png" height="70" width="70"></a></li>
         <li class="list-inline-item mt-1 float-right join">
-            <a class="nav-link py-4" href="#join">Join the wating list</a>
+            <a class="nav-link py-4" id="jon" href="#join">Join the wating list</a>
         </li>
     </ul>
     <div class="container text-center content">
@@ -44,7 +44,26 @@
     <div class="details bg-white pt-5 px-3 pb-1">
         <div class="container">
             <h6 class="text-center textPage2 font-weight-bold pb-4">AS SEEN ON</h6>
-            <img src="images/partner.svg" class="mt-2" width="100%">
+            <div class="row rowImg">
+                <div class="col-2">
+                    <a href="#"><img src="images/amazon.PNG" title="Amazon.com" class="mx-auto d-block" width="90%" height="50px"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#"><img src="images/etsy.PNG" title="Etsy.com" class="mx-auto d-block" width="70%" height="50px"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#"><img src="images/bank.PNG" title="clickbank.com" class="mx-auto d-block" width="90%" height="50px"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#"><img src="images/dd.PNG" title="Medium.com" class="mx-auto d-block" width="50%" height="50px"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#"><img src="images/youtube.PNG" title="youtube.com" class="mx-auto d-block" width="90%" height="50px"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#"><img src="images/kick.PNG" title="KICKSTARTER.com" class="mx-auto d-block" width="90%" height="50px"></a>
+                </div>
+            </div>
             <img src="images/map.svg" class="mx-auto imgMap d-block pt-5">
             <div class="pt-5">
                 <h3 class="txtDetails">With its 3D map and unique features, PHLY offers a one in a kind brand new visual
@@ -229,7 +248,9 @@
                 // $('#poster').addClass('d-none');
                 $("#video>iframe").attr("src", "https://www.youtube.com/embed/zYA8xnkAAj0?autoplay=1")
             });
-
+            $("#jon").click(()=>{
+                $("#join").show(500);
+            });
         });
     </script>
 </body>
