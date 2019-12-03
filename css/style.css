@@ -383,7 +383,9 @@ body{
     padding-top: 1rem;
   }
   .join{
-    margin-right: 1rem;
+    font-size: 14px;
+    padding: 0.1rem;
+    margin-right: 2rem;
   }
   .nav-item{
     padding: 1rem 1rem;
@@ -414,8 +416,8 @@ body{
     padding: 1rem;
   }
   .join .nav-link{
-    padding:0rem 0.2rem;
-    font-size: 14px !important;
+    padding:1rem 1rem;
+    font-size: 12px !important;
     color: white !important;
   }
 }
@@ -482,4 +484,11 @@ body{
   .contactUs {
     background-attachment: fixed;
   }
+}
+@media screen and (max-width: 350px){
+  .video>button{
+  position: absolute;
+  top:20%;
+  left: 24%;
+}
 }
