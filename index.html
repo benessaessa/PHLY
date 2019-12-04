@@ -251,6 +251,13 @@
             $("#jon").click(()=>{
                 $("#join").show(500);
             });
+
+            $(".media").click(function(evt){
+                $(".active-media").removeClass("active-media");
+                $(this).toggleClass("active-media");
+            })
+
+
         });
     </script>
 </body>
