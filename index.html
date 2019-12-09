@@ -106,21 +106,21 @@
                             where we live, work, study & hangout. Phly taps on this and connect us with those in our
                             daily places and areas.</p>
                         <div class="media pt-3">
-                            <img src="images/dashboard.png" class="mr-3">
+                            <img src="images/dashboardNotActive.svg" class="mr-3">
                             <div class="media-body">
                                 <p class="text-muted">Discover Amazing places you’ve been ditching</p>
                             </div>
                         </div>
 
                         <div class="media pt-3">
-                            <img src="images/Group-17.svg" class="mr-3">
+                            <img src="images/nightTimeNotActive.svg" class="mr-3">
                             <div class="media-body">
                                 <p class="text-muted">Automatic Day & Night Modes</p>
                             </div>
                         </div>
                         
                         <div class="media pt-3">
-                            <img src="images/chat.svg" class="mr-3">
+                            <img src="images/chatNotActive.svg" class="mr-3">
                             <div class="media-body">
                                 <p class="text-muted">Integrated Chat Platform</p>
                             </div>
@@ -145,19 +145,19 @@
                                 Established Friends’ circles & common-interest groups can share content & activities at the Places of their life. Here, they harness Places’ visual identity to strengthen the sense of community & expand through Phly’s unique use cases
                         </p>
                         <div class="media pt-3">
-                            <img src="images/flash.svg" class="mr-3">
+                            <img src="images/flashNotActive.svg" class="mr-3">
                             <div class="media-body">
                                 <p class="text-muted">Lightning fast enviroment</p>
                             </div>
                         </div>
                         <div class="media pt-3">
-                            <img src="images/gMap.svg" class="mr-3">
+                            <img src="images/locationNotActive.svg" class="mr-3">
                             <div class="media-body">
                                 <p class="text-muted">Explore who’s doing what nearby</p>
                             </div>
                         </div>
                         <div class="media pt-3">
-                            <img src="images/chat.svg" class="mr-3">
+                            <img src="images/chatNotActive.svg" class="mr-3">
                             <div class="media-body">
                                 <p class="text-muted">Integrated Chat Platform</p>
                             </div>
@@ -253,8 +253,16 @@
             });
 
             $(".media").click(function(evt){
+                $(".active-media").find("img").each((index,item)=>{
+                    let imgName = $(item).attr("src");
+                    let newName = imgName.replace("Active","NotActive");
+                    $(item).attr("src",newName);
+                })
                 $(".active-media").removeClass("active-media");
                 $(this).toggleClass("active-media");
+                let imgName = $(this).find("img").first().attr("src");
+                let newName = imgName.replace("NotActive","Active");
+                $(this).find("img").first().attr("src",newName);
             })
 
 
